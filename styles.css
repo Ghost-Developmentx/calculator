@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Doto", sans-serif;
+    font-size: 22px;
+}
+
+.author {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: -40px;
+    font-family: "Doto", sans-serif;
+    font-size: 16px;
+}
