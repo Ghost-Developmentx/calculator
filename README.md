@@ -39,10 +39,6 @@ functionality for basic arithmetic operations like addition, subtraction, multip
 - Include advanced mathematical functions (e.g., square root, percentage, etc.).
 - Add a history feature to store past calculations.
 
-## Screenshots
-
-*(Include here a screenshot of your project if possible)*
-
 ---
 
 ### Author
