@@ -18,3 +18,88 @@ body {
     font-family: "Doto", sans-serif;
     font-size: 16px;
 }
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: white 1px solid;
+    border-radius: 8px;
+    width: 400px;
+    height: 600px;
+    margin: 30px auto;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    border: white 1px solid;
+    border-radius: 4px;
+    width: 350px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.display p {
+    color: green;
+    font-size: 40px;
+    margin-right: 10px;
+    font-family: "Doto", sans-serif;
+}
+
+.buttons {
+    padding: 0 24px;
+}
+
+.firstRowButtons, .secondRowButtons, .thirdRowButtons, .fourthRowButtons, .fifthRowButtons {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    width: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.secondRowButtons, .thirdRowButtons, .fourthRowButtons, .fifthRowButtons {
+    margin-top: 10px;
+}
+
+.calcButton {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: white 1px solid;
+    border-radius: 4px;
+    height: 78px;
+    text-align: center;
+    cursor: pointer;
+    flex: 1;
+    font-family: monospace, sans-serif;
+}
+
+.calcButton:hover {
+    background-color: #d9d9d9;
+
+    box-shadow: 0 6px 8px rgba(255, 255, 255, 0.25);
+}
+
+#equals {
+    background-color: green;
+    color: white;
+    border: green 1px solid;
+}
+
+#power, #clear, #delete {
+    background-color: red;
+    color: white;
+    border: red 1px solid;
+}
+
+#remainder, #divide, #multiply, #subtract, #add {
+    background-color: orange;
+    color: white;
+    border: orange 1px solid;
+}
