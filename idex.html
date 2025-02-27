@@ -10,6 +10,7 @@
             href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap"
             rel="stylesheet"
     />
+    <script src="script.js" defer></script>
 </head>
 <body>
 <div class="title">
@@ -20,38 +21,37 @@
 </div>
 <div class="calculator">
     <div class="display">
-        <p>123456789</p>
     </div>
     <div class="buttons">
         <div class="firstRowButtons">
-            <div class="calcButton" id="power">ON/OFF</div>
-            <div class="calcButton" id="clear">AC</div>
-            <div class="calcButton" id="remainder">%</div>
-            <div class="calcButton" id="divide">/</div>
+            <button class="calcButton" id="power" value="ON/OFF">ON/OFF</button>
+            <button class="calcButton" id="clear" value="AC">AC</button>
+            <button class="calcButton" id="remainder" value="%">%</button>
+            <button class="calcButton" id="divide" value="/">/</button>
         </div>
         <div class="secondRowButtons">
-            <div class="calcButton" id="seven">7</div>
-            <div class="calcButton" id="eight">8</div>
-            <div class="calcButton" id="nine">9</div>
-            <div class="calcButton" id="multiply">X</div>
+            <button class="calcButton" id="seven" value="7">7</button>
+            <button class="calcButton" id="eight" value="8">8</button>
+            <button class="calcButton" id="nine" value="9">9</button>
+            <button class="calcButton" id="multiply" value="X">X</button>
         </div>
         <div class="thirdRowButtons">
-            <div class="calcButton" id="four">4</div>
-            <div class="calcButton" id="5">5</div>
-            <div class="calcButton" id="6">6</div>
-            <div class="calcButton" id="subtract">-</div>
+            <button class="calcButton" id="four" value="4">4</button>
+            <button class="calcButton" id="five" value="5">5</button>
+            <button class="calcButton" id="six" value="6">6</button>
+            <button class="calcButton" id="subtract" value="-">-</button>
         </div>
         <div class="fourthRowButtons">
-            <div class="calcButton" id="one">1</div>
-            <div class="calcButton" id="two">2</div>
-            <div class="calcButton" id="three">3</div>
-            <div class="calcButton" id="add">+</div>
+            <button class="calcButton" id="one" value="1">1</button>
+            <button class="calcButton" id="two" value="2">2</button>
+            <button class="calcButton" id="three" value="3">3</button>
+            <button class="calcButton" id="addition" value="+">+</button>
         </div>
         <div class="fifthRowButtons">
-            <div class="calcButton" id="zero">0</div>
-            <div class="calcButton" id="decimal">.</div>
-            <div class="calcButton" id="delete">Del</div>
-            <div class="calcButton" id="equals">=</div>
+            <button class="calcButton" id="zero" value="0">0</button>
+            <button class="calcButton" id="decimal" value=".">.</button>
+            <button class="calcButton" id="delete" value="delete">Del</button>
+            <button class="calcButton" id="equals" value="=">=</button>
         </div>
     </div>
 </div>
